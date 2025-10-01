@@ -6,8 +6,7 @@
 
 
 ## 📅 News
-- **30 Sep 2025**: 📅 Kairos [paper]() and inference code released.
-
+- **30 Sep 2025**: 📅 Kairos [paper](https://arxiv.org/abs/2509.25826) and inference code released.
 ## 🌟 Introduction
 
 **Kairos** is a flexible time series foundation model designed to handle the dynamic and heterogeneous nature of real-world time series data. Unlike existing models that rely on rigid, non-adaptive processing pipelines, Kairos introduces two key innovations:
@@ -113,8 +112,7 @@ We welcome any questions, feedback, or potential collaborations. You can reach u
 
 ## 📝 Citation
 
-If you find Kairos models useful for your research, please consider citing the associated [paper]():
-
+If you find Kairos models useful for your research, please consider citing the associated [paper](https://arxiv.org/abs/2509.25826):
 ```
 
 ```
