@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kairos"
+version = "0.1.0"
+authors = [
+  { name="Kun Feng", email="fengkun2025@shanghaitech.edu.cn" },
+  { name="Shaocheng Lan", email="lanshch2024@shanghaitech.edu.cn" },
+  { name="Yuchen Fang", email="yuchen.fyc@antgroup.com" },
+]
+description = "Kairos: Towards Adaptive and Generalizable Time Series Foundation Models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License", #
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "torch~=2.6",
+    "matplotlib~=3.10",
+    "numpy==2.2.5",
+    "pandas==2.2.3",
+    "transformers~=4.56",
+    "einops~=0.8",
+    "jaxtyping~=0.3",
+]
+
+[project.urls]
+Homepage = "https://foundation-model-research.github.io/Kairos"
+"Hugging Face" = "https://huggingface.co/mldi-lab/Kairos_50m"
+"Bug Tracker" = "https://github.com/foundation-model-research/Kairos/issues"
+"Source Code" = "https://github.com/foundation-model-research/Kairos"
+
+[tool.setuptools.packages.find]
+exclude = ["figures*", "datasets*"]

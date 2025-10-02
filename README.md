@@ -16,7 +16,7 @@
 - **🔄 Instance-adaptive Rotary Position Embedding (IARoPE)**: Tailors positional encodings to the unique temporal characteristics of each time series instance, enabling better modeling of diverse periodicities and trends across different domains.
 
 Trained on the large-scale Predictability-Stratified Time Series (PreSTS) corpus comprising over 300 billion time points, Kairos achieves superior zero-shot forecasting performance with significantly fewer parameters compared to existing methods on both GIFT-Eval and Time-Series-Library benchmarks.
-## 📊 Method Overview
+## ⚙️ Method Overview
 
 Overview of the Kairos architecture, highlighting Mixture-of-Size Dynamic Patching (MoS-DP) and Instance-adaptive Rotary Position Embedding (IARoPE).
 
