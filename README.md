@@ -114,5 +114,10 @@ We welcome any questions, feedback, or potential collaborations. You can reach u
 
 If you find Kairos models useful for your research, please consider citing the associated [paper](https://arxiv.org/abs/2509.25826):
 ```
-
+@article{feng2025kairos,
+  title={Kairos: Towards Adaptive and Generalizable Time Series Foundation Models},
+  author={Feng, Kun and Lan, Shaocheng and Fang, Yuchen and He, Wenchao and Ma, Lintao and Lu, Xingyu and Ren, Kan},
+  journal={arXiv preprint arXiv:2509.25826},
+  year={2025}
+}
 ```
