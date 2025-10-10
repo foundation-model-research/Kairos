@@ -7,6 +7,7 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-blue?logo=kaios)](https://foundation-model-research.github.io/Kairos/)
 
 ## 📅 News
+- **06 Oct 2025**: ✨ Kairos is now on the [GIFT-Eval Leaderboard](https://huggingface.co/spaces/Salesforce/GIFT-Eval).
 - **30 Sep 2025**: 📅 Kairos [paper](https://arxiv.org/abs/2509.25826) and inference code released.
 ## 🌟 Introduction
 
