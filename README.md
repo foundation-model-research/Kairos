@@ -1,9 +1,10 @@
 # Kairos: Towards Adaptive and Generalizable Time Series Foundation Models
 
 [![preprint](https://img.shields.io/static/v1?label=arXiv&message=2509.25826&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2509.25826)
-[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-FFD21E)](https://huggingface.co/mldi-lab/Kairos_50m)
-[![Project Page](https://img.shields.io/badge/Project%20Page-blue)](https://foundation-model-research.github.io/Kairos/)
-
+[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-50m-FFD21E)](https://huggingface.co/mldi-lab/Kairos_50m)
+[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-23m-FFD21E)](https://huggingface.co/mldi-lab/Kairos_23m)
+[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-10m-FFD21E)](https://huggingface.co/mldi-lab/Kairos_10m)
+[![Project Page](https://img.shields.io/badge/Project%20Page-blue?logo=kaios)](https://foundation-model-research.github.io/Kairos/)
 
 ## 📅 News
 - **30 Sep 2025**: 📅 Kairos [paper](https://arxiv.org/abs/2509.25826) and inference code released.
