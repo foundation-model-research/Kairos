@@ -7,20 +7,24 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-blue?logo=kaios)](https://foundation-model-research.github.io/Kairos/)
 
 ## 📅 News
+- **16 Feb 2026**: 📅 Updated Kairos [paper (v2)](https://arxiv.org/abs/2509.25826) released.
 - **06 Oct 2025**: ✨ Kairos is now on the [GIFT-Eval Leaderboard](https://huggingface.co/spaces/Salesforce/GIFT-Eval).
 - **30 Sep 2025**: 📅 Kairos [paper](https://arxiv.org/abs/2509.25826) and inference code released.
 ## 🌟 Introduction
 
-**Kairos** is a flexible time series foundation model designed to handle the dynamic and heterogeneous nature of real-world time series data. Unlike existing models that rely on rigid, non-adaptive processing pipelines, Kairos introduces two key innovations:
+**Kairos** is a flexible and parameter-efficient Time Series Foundation Model (TSFM) designed to handle the dynamic and heterogeneous nature of real-world time series data. Unlike existing models that rely on rigid, non-adaptive processing pipelines and massive parameterization, Kairos decouples temporal heterogeneity from model capacity through three key architectural innovations:
 
-- **🔀 Mixture-of-Size Dynamic Patching (MoS-DP)**: Adaptively selects tokenization granularity based on local information density, allowing the model to zoom in on fine-grained details during critical periods and abstract efficiently during stable phases.
+- **🔀 Mixture-of-Size Encoder**: Adaptively tokenizes time series at multiple granularities based on local information density. It utilizes a Top-K granularity router with null experts to efficiently model diverse temporal patterns.
 
-- **🔄 Instance-adaptive Rotary Position Embedding (IARoPE)**: Tailors positional encodings to the unique temporal characteristics of each time series instance, enabling better modeling of diverse periodicities and trends across different domains.
+- **🔄 Heterogeneity-Aware Transformer**: Incorporates **Dynamic Rotary Position Embedding (DRoPE)**, a granularity-aware positional encoding that modulates temporal scales using instance-level spectral features. It adapts to the varying physical durations of dynamic patches, enabling robust modeling of diverse temporal dependencies.
 
-Trained on the large-scale Predictability-Stratified Time Series (PreSTS) corpus comprising over 300 billion time points, Kairos achieves superior zero-shot forecasting performance with significantly fewer parameters compared to existing methods on both GIFT-Eval and Time-Series-Library benchmarks.
+- **⏩ Multi-Patch Decoder**: Employs learnable forecast tokens to predict multiple future patches in parallel, mitigating cumulative errors in autoregressive generation and offering flexibility for variable-length prediction horizons.
+
+Trained on the large-scale **Predictability-Stratified Time Series (PreSTS)** corpus comprising over 300 billion time points, Kairos achieves superior zero-shot forecasting performance with significantly fewer parameters compared to existing methods on both GIFT-Eval and Time-Series-Library benchmarks.
+
 ## ⚙️ Method Overview
 
-Overview of the Kairos architecture, highlighting Mixture-of-Size Dynamic Patching (MoS-DP) and Instance-adaptive Rotary Position Embedding (IARoPE).
+Overview of the Kairos architecture, highlighting the Mixture-of-Size Encoder, Heterogeneity-Aware Transformer with DRoPE, and the Multi-Patch Decoder.
 
 <p align="center">
   <img src="figures/method.png" alt="Kairos Method Overview" width="700"/>
