@@ -46,11 +46,25 @@ Kairos achieves superior performance with fewer parameters on two common zero-sh
 
 ### Prerequisites
 
-Before running the forecasting pipeline, you need to install the required dependencies. Use the following command to install all necessary packages:
+Choose one of the following methods to set up the environment:
+
+**Option 1: Install from Source (Recommended)**
+Best for users who want to use the library directly. This ensures `tsfm` is globally accessible in your environment and resolves path issues automatically.
 
 ```bash
+pip install git+https://github.com/foundation-model-research/Kairos
+```
+
+**Option 2: Local Setup**
+Best for running demos or modifying the code locally.
+
+```bash
+git clone https://github.com/foundation-model-research/Kairos.git
+cd Kairos
 pip install -r requirements.txt
 ```
+
+> **Note:** If you choose Option 2, please ensure the project root is added to your `PYTHONPATH` or use `sys.path.append` in your scripts to avoid `ModuleNotFoundError`.
 
 ### Model Setup
 
