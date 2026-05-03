@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = "kairos"
@@ -38,5 +38,8 @@ Homepage = "https://foundation-model-research.github.io/Kairos"
 "Bug Tracker" = "https://github.com/foundation-model-research/Kairos/issues"
 "Source Code" = "https://github.com/foundation-model-research/Kairos"
 
-[tool.setuptools.packages.find]
-exclude = ["figures*", "datasets*"]
+[tool.hatch.build.targets.sdist]
+include = ["tsfm/"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["tsfm/"]
