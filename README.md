@@ -7,9 +7,10 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-blue?logo=kaios)](https://foundation-model-research.github.io/Kairos/)
 
 ## 📅 News
-- **16 Feb 2026**: 📅 Updated Kairos [paper (v2)](https://arxiv.org/abs/2509.25826) released.
+- **14 May 2026**: 📅 Updated Kairos [paper (v3)](https://arxiv.org/abs/2509.25826v3) released.
+- **16 Feb 2026**: 📅 Updated Kairos [paper (v2)](https://arxiv.org/abs/2509.25826v2) released.
 - **06 Oct 2025**: ✨ Kairos is now on the [GIFT-Eval Leaderboard](https://huggingface.co/spaces/Salesforce/GIFT-Eval).
-- **30 Sep 2025**: 📅 Kairos [paper](https://arxiv.org/abs/2509.25826) and inference code released.
+- **30 Sep 2025**: 📅 Kairos [paper](https://arxiv.org/abs/2509.25826v1) and inference code released.
 ## 🌟 Introduction
 
 **Kairos** is a flexible and parameter-efficient Time Series Foundation Model (TSFM) designed to handle the dynamic and heterogeneous nature of real-world time series data. Unlike existing models that rely on rigid, non-adaptive processing pipelines and massive parameterization, Kairos decouples temporal heterogeneity from model capacity through three key architectural innovations:
@@ -136,7 +137,7 @@ If you find Kairos models useful for your research, please consider citing the a
 ```
 @article{feng2025kairos,
   title={Kairos: Toward Adaptive and Parameter-Efficient Time Series Foundation Models},
-  author={Feng, Kun and Lan, Shaocheng and Fang, Yuchen and He, Wenchao and Ma, Lintao and Lu, Xingyu and Ren, Kan},
+  author={Feng, Kun and Lan, Shaocheng and Fang, Yuchen and He, Wenchao and Lu, Sihan and Gu, Shuqi and Ma, Lintao and Lu, Xingyu and Ren, Kan},
   journal={arXiv preprint arXiv:2509.25826},
   year={2025}
 }
