@@ -1,4 +1,4 @@
-# Kairos: Toward Adaptive and Parameter-Efficient Time Series Foundation Models
+# [NeurIPS 2026] Kairos: Toward Adaptive and Parameter-Efficient Time Series Foundation Models
 
 [![preprint](https://img.shields.io/static/v1?label=arXiv&message=2509.25826&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2509.25826)
 [![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-50m-FFD21E)](https://huggingface.co/mldi-lab/Kairos_50m)
@@ -7,10 +7,11 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-blue?logo=kaios)](https://foundation-model-research.github.io/Kairos/)
 
 ## 📅 News
-- **14 May 2026**: 📅 Updated Kairos [paper (v3)](https://arxiv.org/abs/2509.25826v3) released.
-- **16 Feb 2026**: 📅 Updated Kairos [paper (v2)](https://arxiv.org/abs/2509.25826v2) released.
+- **25 Sep 2026**: 🎉 Kairos has been accepted to **NeurIPS 2026**!
+- **14 May 2026**: 📰 Updated Kairos [paper (v3)](https://arxiv.org/abs/2509.25826v3) released.
+- **16 Feb 2026**: 📰 Updated Kairos [paper (v2)](https://arxiv.org/abs/2509.25826v2) released.
 - **06 Oct 2025**: ✨ Kairos is now on the [GIFT-Eval Leaderboard](https://huggingface.co/spaces/Salesforce/GIFT-Eval).
-- **30 Sep 2025**: 📅 Kairos [paper](https://arxiv.org/abs/2509.25826v1) and inference code released.
+- **30 Sep 2025**: 📰 Kairos [paper](https://arxiv.org/abs/2509.25826v1) and inference code released.
 ## 🌟 Introduction
 
 **Kairos** is a flexible and parameter-efficient Time Series Foundation Model (TSFM) designed to handle the dynamic and heterogeneous nature of real-world time series data. Unlike existing models that rely on rigid, non-adaptive processing pipelines and massive parameterization, Kairos decouples temporal heterogeneity from model capacity through three key architectural innovations:
